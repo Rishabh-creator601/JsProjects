@@ -20,14 +20,14 @@ function count_year(sample_date="2007-05-19"){
         return  [years,months,days ] 
     }
 
-    if (months < 0 && days > 0){
+    if (months <= 0 && days > 0){
         years =  years -1 
         months  =  months + 12
         return  [years,months,days ] 
 
     }
 
-    if (months < 0  && days< 0){
+    if (months <= 0  && days< 0){
         years =  years -1 
         months =  months  +  11;  // 12-1  12 :  saal ke 12 maas and -1 : ek mahine ko days mei de diya na
         days  =  days +  month_wise_values[today.getMonth()]
