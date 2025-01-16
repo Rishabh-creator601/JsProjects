@@ -1,0 +1,110 @@
+
+/*
+.donecut span{
+    text-decoration: line-through;
+    
+
+} */
+
+body{
+    background-image: linear-gradient(to bottom right, #00C0FF, #4218B8);;
+}
+
+
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.room{
+
+    background-color: white;
+    width: 90vmin;
+    border: none;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 20px 30px;
+    
+
+}
+
+.room input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blue ;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70%;
+}
+
+.head #btn{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px;
+    background-color: rgb(157, 127, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    float: right;
+    width: 20%;
+
+}
+
+
+#display li {
+
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 7px;
+    color:aqua;
+    
+
+}
+
+
+#cross,#done,#edit{
+   
+    border-radius: 7px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+
+}
+
+
+#cross{
+    background-color: black;
+    color: red;
+    font-size: 18px;
+    padding: 6px 12px;
+
+
+}
+
+#done{
+    background-color:black;
+    color: rgb(90, 128, 0);
+    font-size: 18px;
+    padding: 6px 12px;
+
+
+}
+
+#edit{
+    background-color: black;
+    color:yellow;
+    font-size: 18px;
+    padding: 6px 12px;
+    
+}
