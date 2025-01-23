@@ -1,0 +1,30 @@
+h2{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+
+}
+
+
+
+.room{
+    justify-content: center;
+    text-align: center;
+}
+
+.result{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.result span{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color:yellow;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
